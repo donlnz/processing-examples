@@ -83,7 +83,7 @@ public class Particle {
   public void show(boolean debug) {
     //int r = round(noise(this.pos.x) * 255);
     //int b = round(noise(this.pos.y) * 255);
-    stroke(this.c.x, this.c.y, this.c.z, noise(this.pos.x, this.pos.y) * 50);
+    stroke(this.c.x, this.c.y, this.c.z, noise(this.pos.x, this.pos.y) * 30);
     if (debug)
       strokeWeight(4);
  
